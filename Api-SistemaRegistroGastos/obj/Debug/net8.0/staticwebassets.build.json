@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pQdLLseb67GoBdpC5K4r/0vXJURPefrsj8gbXvL4z9k=",
+  "Source": "Api-SistemaRegistroGastos",
+  "BasePath": "_content/Api-SistemaRegistroGastos",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
