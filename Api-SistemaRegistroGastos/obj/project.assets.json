@@ -5146,11 +5146,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\martino\\source\\repos\\Api-SistemaRegistroGastos\\Api-SistemaRegistroGastos.csproj",
+      "projectUniqueName": "C:\\Users\\martino\\OneDrive\\Desktop\\SistemaGastos_Back_Front\\Api-SistemaRegistroGastos\\Api-SistemaRegistroGastos.csproj",
       "projectName": "Api-SistemaRegistroGastos",
-      "projectPath": "C:\\Users\\martino\\source\\repos\\Api-SistemaRegistroGastos\\Api-SistemaRegistroGastos.csproj",
+      "projectPath": "C:\\Users\\martino\\OneDrive\\Desktop\\SistemaGastos_Back_Front\\Api-SistemaRegistroGastos\\Api-SistemaRegistroGastos.csproj",
       "packagesPath": "C:\\Users\\martino\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\martino\\source\\repos\\Api-SistemaRegistroGastos\\obj\\",
+      "outputPath": "C:\\Users\\martino\\OneDrive\\Desktop\\SistemaGastos_Back_Front\\Api-SistemaRegistroGastos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Api-SistemaRegistroGastos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80b2283bfbb8031eade48a3ce8d9bdbe5c2f92f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Api-SistemaRegistroGastos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Api-SistemaRegistroGastos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\martino\\source\\repos\\Api-SistemaRegistroGastos\\",
+  "WorkspaceRootPath": "C:\\Users\\martino\\OneDrive\\Desktop\\SistemaGastos_Back_Front\\Api-SistemaRegistroGastos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F56A5AE-56E2-466E-AF45-F176E79E5A31}|Api-SistemaRegistroGastos.csproj|c:\\users\\martino\\source\\repos\\api-sistemaregistrogastos\\controllers\\gastoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F56A5AE-56E2-466E-AF45-F176E79E5A31}|Api-SistemaRegistroGastos.csproj|solutionrelative:controllers\\gastoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F56A5AE-56E2-466E-AF45-F176E79E5A31}|Api-SistemaRegistroGastos.csproj|c:\\users\\martino\\source\\repos\\api-sistemaregistrogastos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F56A5AE-56E2-466E-AF45-F176E79E5A31}|Api-SistemaRegistroGastos.csproj|c:\\users\\martino\\onedrive\\desktop\\sistemagastos_back_front\\api-sistemaregistrogastos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F56A5AE-56E2-466E-AF45-F176E79E5A31}|Api-SistemaRegistroGastos.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F56A5AE-56E2-466E-AF45-F176E79E5A31}|Api-SistemaRegistroGastos.csproj|c:\\users\\martino\\source\\repos\\api-sistemaregistrogastos\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{1F56A5AE-56E2-466E-AF45-F176E79E5A31}|Api-SistemaRegistroGastos.csproj|c:\\users\\martino\\onedrive\\desktop\\sistemagastos_back_front\\api-sistemaregistrogastos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1F56A5AE-56E2-466E-AF45-F176E79E5A31}|Api-SistemaRegistroGastos.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F56A5AE-56E2-466E-AF45-F176E79E5A31}|Api-SistemaRegistroGastos.csproj|c:\\users\\martino\\onedrive\\desktop\\sistemagastos_back_front\\api-sistemaregistrogastos\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1F56A5AE-56E2-466E-AF45-F176E79E5A31}|Api-SistemaRegistroGastos.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F56A5AE-56E2-466E-AF45-F176E79E5A31}|Api-SistemaRegistroGastos.csproj|c:\\users\\martino\\source\\repos\\api-sistemaregistrogastos\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F56A5AE-56E2-466E-AF45-F176E79E5A31}|Api-SistemaRegistroGastos.csproj|c:\\users\\martino\\onedrive\\desktop\\sistemagastos_back_front\\api-sistemaregistrogastos\\controllers\\gastoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F56A5AE-56E2-466E-AF45-F176E79E5A31}|Api-SistemaRegistroGastos.csproj|solutionrelative:controllers\\gastoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F56A5AE-56E2-466E-AF45-F176E79E5A31}|Api-SistemaRegistroGastos.csproj|c:\\users\\martino\\onedrive\\desktop\\sistemagastos_back_front\\api-sistemaregistrogastos\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F56A5AE-56E2-466E-AF45-F176E79E5A31}|Api-SistemaRegistroGastos.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F56A5AE-56E2-466E-AF45-F176E79E5A31}|Api-SistemaRegistroGastos.csproj|c:\\users\\martino\\source\\repos\\api-sistemaregistrogastos\\models\\gastos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1F56A5AE-56E2-466E-AF45-F176E79E5A31}|Api-SistemaRegistroGastos.csproj|c:\\users\\martino\\onedrive\\desktop\\sistemagastos_back_front\\api-sistemaregistrogastos\\models\\gastos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F56A5AE-56E2-466E-AF45-F176E79E5A31}|Api-SistemaRegistroGastos.csproj|solutionrelative:models\\gastos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F56A5AE-56E2-466E-AF45-F176E79E5A31}|Api-SistemaRegistroGastos.csproj|c:\\users\\martino\\source\\repos\\api-sistemaregistrogastos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1F56A5AE-56E2-466E-AF45-F176E79E5A31}|Api-SistemaRegistroGastos.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,15 +34,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\martino\\source\\repos\\Api-SistemaRegistroGastos\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\martino\\OneDrive\\Desktop\\SistemaGastos_Back_Front\\Api-SistemaRegistroGastos\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\martino\\source\\repos\\Api-SistemaRegistroGastos\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\martino\\OneDrive\\Desktop\\SistemaGastos_Back_Front\\Api-SistemaRegistroGastos\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -51,67 +51,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\martino\\source\\repos\\Api-SistemaRegistroGastos\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\martino\\OneDrive\\Desktop\\SistemaGastos_Back_Front\\Api-SistemaRegistroGastos\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\martino\\source\\repos\\Api-SistemaRegistroGastos\\appsettings.json",
+              "ToolTip": "C:\\Users\\martino\\OneDrive\\Desktop\\SistemaGastos_Back_Front\\Api-SistemaRegistroGastos\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAACuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-05T23:33:12.672Z"
+              "WhenOpened": "2025-06-05T23:33:12.672Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\martino\\source\\repos\\Api-SistemaRegistroGastos\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\martino\\OneDrive\\Desktop\\SistemaGastos_Back_Front\\Api-SistemaRegistroGastos\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\martino\\source\\repos\\Api-SistemaRegistroGastos\\Program.cs",
+              "ToolTip": "C:\\Users\\martino\\OneDrive\\Desktop\\SistemaGastos_Back_Front\\Api-SistemaRegistroGastos\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T23:33:09.747Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "GastosController.cs",
-              "DocumentMoniker": "C:\\Users\\martino\\source\\repos\\Api-SistemaRegistroGastos\\Controllers\\GastosController.cs",
+              "DocumentMoniker": "C:\\Users\\martino\\OneDrive\\Desktop\\SistemaGastos_Back_Front\\Api-SistemaRegistroGastos\\Controllers\\GastosController.cs",
               "RelativeDocumentMoniker": "Controllers\\GastosController.cs",
-              "ToolTip": "C:\\Users\\martino\\source\\repos\\Api-SistemaRegistroGastos\\Controllers\\GastosController.cs",
+              "ToolTip": "C:\\Users\\martino\\OneDrive\\Desktop\\SistemaGastos_Back_Front\\Api-SistemaRegistroGastos\\Controllers\\GastosController.cs",
               "RelativeToolTip": "Controllers\\GastosController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAABFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-05T23:29:48.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\martino\\source\\repos\\Api-SistemaRegistroGastos\\Models\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\martino\\OneDrive\\Desktop\\SistemaGastos_Back_Front\\Api-SistemaRegistroGastos\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\martino\\source\\repos\\Api-SistemaRegistroGastos\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\martino\\OneDrive\\Desktop\\SistemaGastos_Back_Front\\Api-SistemaRegistroGastos\\Models\\AppDbContext.cs",
               "RelativeToolTip": "Models\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-05T23:28:57.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T23:28:57.829Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Gastos.cs",
-              "DocumentMoniker": "C:\\Users\\martino\\source\\repos\\Api-SistemaRegistroGastos\\Models\\Gastos.cs",
+              "DocumentMoniker": "C:\\Users\\martino\\OneDrive\\Desktop\\SistemaGastos_Back_Front\\Api-SistemaRegistroGastos\\Models\\Gastos.cs",
               "RelativeDocumentMoniker": "Models\\Gastos.cs",
-              "ToolTip": "C:\\Users\\martino\\source\\repos\\Api-SistemaRegistroGastos\\Models\\Gastos.cs",
+              "ToolTip": "C:\\Users\\martino\\OneDrive\\Desktop\\SistemaGastos_Back_Front\\Api-SistemaRegistroGastos\\Models\\Gastos.cs",
               "RelativeToolTip": "Models\\Gastos.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAwAsAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T20:05:10.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T20:05:10.461Z"
             }
           ]
         }

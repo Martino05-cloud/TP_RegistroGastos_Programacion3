@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FIPI6o6qOSVEC0mMlfCMmdEOLjLhOBCA92sG6b/1mzu/IHr0CWlsuGl+1c/9vDwA2YQvhvoCAdcHLAY4iiIuLg==",
+  "dgSpecHash": "+8Sgz6ekt3GNQm8bUz+kNmwlzksUQ/pB/LyvEPmMgKQRhaM0Dg0UtFoaKD9RP49R0+NLDa1runKgbeqUuRjgmA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\martino\\source\\repos\\Api-SistemaRegistroGastos\\Api-SistemaRegistroGastos.csproj",
+  "projectFilePath": "C:\\Users\\martino\\OneDrive\\Desktop\\SistemaGastos_Back_Front\\Api-SistemaRegistroGastos\\Api-SistemaRegistroGastos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\martino\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\martino\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

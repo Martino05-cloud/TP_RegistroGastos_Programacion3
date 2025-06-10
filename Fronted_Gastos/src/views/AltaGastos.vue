@@ -1,33 +1,34 @@
 <script setup>
 import { ref } from 'vue';
 
-let Monto = ref('');
-let Descripción = ref('');
-let fecha = ref('');
-let nombreComercio = ref('');
+const Monto = ref('');
+const Descripcion = ref('');
+const fecha = ref('');
+const nombreComercio = ref('');
 
-let mensajeExito = ref('');
+const mensajeExito = ref('');
 
-let errorMonto = ref('');
-let errorDescripcion = ref('');
-let errorFecha = ref('');
-let errorComercio = ref('');
+const errorMonto = ref('');
+const errorDescripcion = ref('');
+const errorFecha = ref('');
+const errorComercio = ref('');
 
-async function guardarDatosApi() {
-
+const guardarDatosApi = async () => {
+  // Reiniciar errores
   errorMonto.value = '';
   errorDescripcion.value = '';
   errorFecha.value = '';
   errorComercio.value = '';
+  mensajeExito.value = '';
 
   const monto = parseFloat(Monto.value);
-  const descripcion = Descripción.value.trim();
+  const descripcion = Descripcion.value.trim();
   const fechaIngresada = new Date(fecha.value);
   const hoy = new Date();
   const comercio = nombreComercio.value.trim();
 
-
-  if (isNaN(monto) || monto <= 0) {
+  // Validaciones
+  if (!Monto.value || isNaN(monto) || monto <= 0) {
     errorMonto.value = "El monto es obligatorio y debe ser mayor a 0";
     return;
   }
@@ -47,7 +48,7 @@ async function guardarDatosApi() {
     return;
   }
 
-  // Si pasa validaciones guardamos
+  // Envío a la API si pasa todas las validaciones
   const nuevoGasto = {
     monto,
     descripcion,
@@ -58,94 +59,76 @@ async function guardarDatosApi() {
   try {
     const respuesta = await fetch('https://localhost:7216/api/Gastos', {
       method: 'POST',
-      body: JSON.stringify(nuevoGasto),
       headers: {
         'Content-Type': 'application/json'
-      }
+      },
+      body: JSON.stringify(nuevoGasto)
     });
 
     if (respuesta.ok) {
-
+      mensajeExito.value = 'Gasto guardado correctamente.';
+      // Limpiar campos
       Monto.value = '';
-      Descripción.value = '';
+      Descripcion.value = '';
       fecha.value = '';
       nombreComercio.value = '';
-      mensajeExito.value = 'Gasto guardado correctamente.';
+    } else {
+      const errorData = await respuesta.json();
+      console.error('Error al guardar:', errorData);
     }
-    setTimeout(() => {
-    mensajeExito.value = '';
-  }, 3000);
 
   } catch (error) {
-    console.error(error);
+    console.error('Error en fetch:', error);
   }
-}
+
+  // Limpiar mensaje de éxito luego de 3 segundos
+  setTimeout(() => {
+    mensajeExito.value = '';
+  }, 3000);
+};
 </script>
 
 <template>
-  <div class="router-link">
-    <p>
-      <router-link to="/">Volver al inicio</router-link>
-    </p>
-  </div>
-  <div class="router-link">
-    <p>
-      <router-link to="/ListadoGastos"> VER HISTORIAL DE GASTOS</router-link>
-    </p>
-  </div>
   <div class="form-container">
     <h1>Registrar Gasto</h1>
-
     <form @submit.prevent="guardarDatosApi">
-
       <div class="form-group">
         <label>Monto:</label>
-        <input v-model="Monto" type="number" required />
-        <span v-if="errorMonto" class="error-message">{{ errorMonto }}</span>
+        <input v-model="Monto" type="number" />
+        <span v-if="errorMonto" class="error">{{ errorMonto }}</span>
       </div>
 
       <div class="form-group">
         <label>Descripción:</label>
-        <input v-model="Descripción" type="text" required />
-        <span v-if="errorDescripcion" class="error-message">{{ errorDescripcion }}</span>
+        <input v-model="Descripcion" type="text" />
+        <span v-if="errorDescripcion" class="error">{{ errorDescripcion }}</span>
       </div>
 
       <div class="form-group">
         <label>Fecha:</label>
-        <input v-model="fecha" type="date" required />
-        <span v-if="errorFecha" class="error-message">{{ errorFecha }}</span>
+        <input v-model="fecha" type="date" />
+        <span v-if="errorFecha" class="error">{{ errorFecha }}</span>
       </div>
 
       <div class="form-group">
         <label>Nombre del Comercio:</label>
-        <input v-model="nombreComercio" type="text" required />
-        <span v-if="errorComercio" class="error-message">{{ errorComercio }}</span>
+        <input v-model="nombreComercio" type="text" />
+        <span v-if="errorComercio" class="error">{{ errorComercio }}</span>
       </div>
 
       <button type="submit">Guardar</button>
 
-      <p v-if="mensajeExito" class="mensaje-exito">{{ mensajeExito }}</p>
+      <p v-if="mensajeExito" class="success">{{ mensajeExito }}</p>
     </form>
+  </div>
+
+  <div class="botones-navegacion">
+    <router-link to="/" class="router-button">Volver al inicio</router-link>
+    <router-link to="/ListadoGastos" class="router-button">Ver Listado</router-link>
   </div>
 </template>
 
 <style scoped>
-.router-link a {
-  text-decoration: none;
-  color:black;
-  padding: 12px 24px;
-  border-radius: 8px;
-  font-size: 18px;
-}
-.router-link a:hover {
-  color: #007bff;
-  transform: scale(1.1);
-}
-.error-message {
-  color: red;
-  font-size: 0.9em;
-  margin-top: 5px;
-}
 .form-container {
   max-width: 500px;
   margin: auto;
@@ -163,8 +146,8 @@ h1 {
 
 label {
   display: block;
-  font-weight: bold;
   margin-bottom: 5px;
+  font-weight: bold;
 }
 
 input {
@@ -174,20 +157,46 @@ input {
 }
 
 button {
+  width: 100%;
+  padding: 10px;
   background-color: #28a745;
   color: white;
-  padding: 10px 20px;
   border: none;
   cursor: pointer;
-  width: 100%;
 }
 
 button:hover {
   background-color: #218838;
 }
-.mensaje-exito {
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+.success {
   color: green;
-  margin-top: 10px;
   font-weight: bold;
+  margin-top: 10px;
+}
+
+.botones-navegacion {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.router-button {
+  text-decoration: none;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.router-button:hover {
+  background-color: #2980b9;
 }
 </style>
